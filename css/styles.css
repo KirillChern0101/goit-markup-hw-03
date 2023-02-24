@@ -192,7 +192,7 @@ img {
 	letter-spacing: 0.02em;
 	color: var(--color-of-paraghraphs);
 	display: block;
-	width: 300px;
+	width: 264px;
 }
 /* About-Section-Style */
 
@@ -260,9 +260,7 @@ img {
 /* footer-Style */
 .footer {
 	background-color: var(--accent-text-color);
-	padding: 100px 1020px 100px 156px;
-	display: flex;
-	justify-content: flex-start;
+	padding: 100px 0;
 }
 .footer-logo {
 	font-family: "Raleway";
@@ -282,17 +280,16 @@ img {
 	letter-spacing: 0.02em;
 	color: var(--footer-text-color);
 	display: block;
-	width: 300px;
+	width: 264px;
 }
 /* footer-Style */
 
 /* Portfolio HTML */
 /* Hero-Portfolio-Style */
-.hero-section-portf {
-	display: flex;
-}
 .hero-portf-list {
 	padding: 96px 0 72px 0;
+	display: flex;
+	justify-content: center;
 }
 .hero-portf-item:not(:last-child) {
 	margin-right: 24px;
@@ -308,6 +305,8 @@ img {
 	cursor: pointer;
 	border: 1px solid var(--footer-text-color);
 	border-radius: 4px;
+	padding: 12px 24px;
+	box-sizing: border-box;
 }
 .hero-portf-button:hover,
 .hero-portf-button:focus {
