@@ -49,6 +49,7 @@ img {
 .header {
 	background-color: var(--accent-text-background-color);
 	padding: 24px 0;
+	border: 1px solid #e7e9fc;
 }
 .main-header {
 	display: flex;
@@ -236,7 +237,11 @@ img {
 }
 .our-team-section-lits {
 	display: flex;
+}
+.our-team-section-photo {
 	background-color: var(--accent-text-background-color);
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+	border-radius: 0px 0px 4px 4px;
 }
 .our-team-section-photo:not(:last-child) {
 	margin-right: 24px;
@@ -274,6 +279,7 @@ img {
 	color: var(--footer-text-color);
 	display: block;
 	margin-bottom: 16px;
+	width: 115px;
 }
 .footer-text {
 	font-weight: 400;
@@ -318,12 +324,30 @@ img {
 /* Hero-Portfolio-Style */
 
 /* Service-Portfolio-Style */
+.service-portf-list {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 120px;
+}
+.service-portf-item {
+	width: 360px;
+	border: 1px solid #e7e9fc;
+	margin-right: 24px;
+	margin-bottom: 48px;
+}
+.service-portf-item:nth-child(3n) {
+	margin-right: 0;
+}
 .service-portf-subject {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: var(--accent-text-color);
+	display: block;
+	margin-top: 32px;
+	margin-bottom: 8px;
+	padding-left: 16px;
 }
 .service-portf-text {
 	font-weight: 400;
@@ -331,6 +355,9 @@ img {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: #434455;
+	display: block;
+	padding-left: 16px;
+	padding-bottom: 32px;
 }
 /* Service-Portfolio-Style */
 /* Portfolio HTML */
