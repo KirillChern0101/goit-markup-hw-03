@@ -224,6 +224,7 @@ img {
 	background-color: var(--backgroun-color);
 	display: flex;
 	text-align: center;
+	padding-bottom: 120px;
 }
 .our-team-section-title {
 	font-weight: 700;
@@ -233,9 +234,12 @@ img {
 	color: var(--accent-text-color);
 	padding: 120px 0 72px 0;
 }
-.our-team-section-photo {
+.our-team-section-lits {
 	display: flex;
-	justify-content: center;
+	background-color: var(--accent-text-background-color);
+}
+.our-team-section-photo:not(:last-child) {
+	margin-right: 24px;
 }
 .our-team-section-subject {
 	font-weight: 500;
@@ -243,8 +247,7 @@ img {
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: var(--accent-text-color);
-	display: block;
-	margin: 0 24px 8px 24px;
+	margin: 32px 0px 8px 0px;
 }
 .our-team-section-text {
 	font-weight: 400;
@@ -252,7 +255,6 @@ img {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--color-of-paraghraphs);
-	display: block;
 	margin-bottom: 32px;
 }
 /* OurTeam-Section-Style */
