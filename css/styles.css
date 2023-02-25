@@ -328,7 +328,6 @@ img {
 }
 .service-portf-item {
 	width: 360px;
-	border: 1px solid #e7e9fc;
 	margin-right: 24px;
 	margin-bottom: 48px;
 }
@@ -357,6 +356,9 @@ img {
 }
 .service-portf-container {
 	padding: 32px 0 32px 16px;
+	border-left: 1px solid #e7e9fc;
+	border-right: 1px solid #e7e9fc;
+	border-bottom: 1px solid #e7e9fc;
 }
 /* Service-Portfolio-Style */
 /* Portfolio HTML */
