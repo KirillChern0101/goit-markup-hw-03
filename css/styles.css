@@ -48,6 +48,9 @@ img {
 .section {
 	padding: 120px 0;
 }
+.section-about {
+	padding-top: 120px;
+}
 
 /* Header-Style */
 .header {
@@ -89,7 +92,7 @@ img {
 	letter-spacing: 0.02em;
 	color: var(--accent-text-color);
 	display: block;
-	padding: 24px 24px;
+	padding: 24px 0;
 }
 .header-link:hover,
 .header-link:focus {
@@ -310,7 +313,6 @@ img {
 	color: var(--accent-text-color-two);
 	background-color: var(--backgroun-color);
 	cursor: pointer;
-	border: 1px solid var(--footer-text-color);
 	border-radius: 4px;
 	padding: 12px 24px;
 }
